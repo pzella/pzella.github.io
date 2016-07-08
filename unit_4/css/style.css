@@ -1,0 +1,33 @@
+
+*{padding:0; 
+	margin:0;}
+	
+h1{font-family:"Playball","Zapfino";
+font-weight:bold;
+ color:gold;
+background-color:black; padding-top:20px;
+text-decoration:underline;
+font-size: 45px;}
+
+body{text-align:center;
+	font-family:"Raleway","Helvetica","Sans-serif";
+	color:gold;
+background-color:rgba(162,0,255,0.5); 
+line-height:1.5em;
+margin:25px; /*purple;*/}
+
+hr{width:400px; margin-left: 500px; 
+}
+
+ul{font-size:20px; padding-top:10px; padding-bottom:10px;}
+
+#slogan{font-style:italic;font-weight:bold;padding-bottom:15px;padding-top:10px; }
+
+#headline {line-height:1em;}
+
+p{padding-top:10px;padding-bottom:10px;}
+
+footer{padding-top:15px;}
+
+a{color:inherit;
+ }
