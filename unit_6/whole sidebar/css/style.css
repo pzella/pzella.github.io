@@ -54,11 +54,11 @@ p{
 	padding-top:10px;
 	padding-bottom:10px;
 }
-/*footer{
+footer{
 	padding-top:15px; 
 	background-color:purple; 
 	color:white;
-}*/
+}
 a{
 	color:inherit;
 }
@@ -85,7 +85,7 @@ figure {
 	padding-bottom:10px;
 }
 
-header{background-color:#FFED74;
+/*header{background-color:#FFED74;
     border: 1px black solid;
     padding: 20px; 
 }
@@ -101,25 +101,27 @@ section{background-color:#FFE2B8;
 }
 footer{background-color:#FF957E;
     border: 1px black solid;
-    padding: 20px; 
+    padding: 20px; */
 }
-
+aside{
+	background-color:rgba(0,0,0,0);
+}
 #two_column{
-	background-color:#FFB7CF;
-	border:1px black solid;
+	background-color:rgba(0,0,0,0);
+/*	border:1px black solid;*/
 	padding: 20px;
 }
 
 #left{
-	background-color:violet;
-	border:1px black solid;
+	background-color:rgba(0,0,0,0);
+/*	border:1px black solid;*/
 	padding:20px;
 	float:left;
 	width: 63%;
 }
 #right{
-	background-color:pink;
-	border: 1px black solid;
+	background-color:rgba(0,0,0,0);
+	/*border: 1px black solid;*/
 	padding: 20px;
 	float:right;
 	width:20%;
