@@ -138,15 +138,14 @@ a{
 }
 
 #blingring{
-	width:50%;
+	width:100%;
 }
 #ringsbanner{
-	width:50%;
+	width:100%;
 }
 #cloverbracelet{
 	width:22%; 
-	background-color:blue;
-	
+	background-color:blue;	
 }
 
 #wrapper{
@@ -216,19 +215,6 @@ a{
 	letter-spacing:.1em;
 	
 }
-
-/*.hidden{
-	display:inline-block;
-
-}
-
-span:hover.hidden{
-	display:inline-block;
-	color:green;
-}*/
-
-
-
 
 .menu {
 	display: inline-block;
@@ -305,22 +291,21 @@ span:hover.hidden{
 	padding-top:1em;
 }
 
-/*.hiddentext {
-	opacity:0
-}
-
- .hiddentext:hover{
-	opacity:1
-}*/
-
 
 @media only screen and (max-width:480px)
 {
-	h1, header,{
-		font-size: 1em; 
+	h1, header, {
+		font-size: .75em; 
+	}
+	#headline{
+		font-size:0.95em;
+
+	}
+#shoppingtrolley{
+		width:1.5em;
 	}
 	#slogan {
-			font-size:1em;
+			font-size:.75em;
 	}
 	p{
 		font-size: 0.7em;
@@ -329,23 +314,144 @@ span:hover.hidden{
 	.menu{ 
 		font-size:1em;
 		 }
-	
-	figure{ 
+	#cloverbracelet{
+		width:80%;
+	}
+
+	#heartnecklace{
+		display:none;
+	}
+	.wrapper{ 
 		display:block;
 		width:100%;
 	 }
-	.home footer{
-		/*position:absolute;*/
-	  	right: 0;
-	  	bottom: 0;
-	  	left: 0;
-	  	padding: 1rem;
-		text-align: center;
-		font-size:.75em;
+
+	 .frontrow{
+	 	display:block;
+	 	width:100%;
+	 }
+
+	footer{
+		display:block;
+		position:static;
+		bottom:0;
+		width:100%;
 		background-color:purple;
 	}
 
+	nav a {
+		padding:0.3em;
+		letter-spacing:.1em;
+
+	}
+
+	.socialbutton{
+		width:2em;
+	}
+
+	#blingring{
+		width:100%;
+	}
+	#ringsbanner{
+		width:100%;
+	}
+	.earrings{
+		display:block;
+		width:100%;
+	}
+
+	.necklace{
+		display:block;
+		width:100%;
+	}
+
+	.ring{
+		display:block;
+		width:100%;
+	}
+
+	.bracelets{
+		display:block;
+		width:100%;
+	}
+
+	.sets{
+		display:block;
+		width:100%;
+	}
+
+	.productcontainer{
+		display:block;
+		float:none;
+		width:100%
+	}
+
+	.productpicture{
+		display:block;
+		width:100%;
+	}
+
+	.producttext{
+		display:block;
+		width:90%;
+		padding:none;
+	}
+
+	.reviews{
+		width:90%;
+		padding:0.5em;
+		text-align:justify;
+		display:block;
+		letter-spacing:0;
+		font-size:0.7em;
+
+	}
+
+	#addtocartbutton{
+		padding-left:2.1em; 
+	}
+
+	#shippingearrings{
+		width:50%;
+	}
+
+	#purpleringFAQ{
+		width:50%;
+	}
+
+	#privacypolicyimage{
+		width:50%;
+	}
+
+	#aboutusnecklace{
+		width:50%;
+	}
 }
+
+
+@media only screen and (max-width:1100px)
+{ 
+	footer{
+		font-size:0.75em;
+		display:block;
+		position:static;
+		bottom:0;
+		width:100%;
+		background-color:purple;
+	}
+
+#blingring{
+		width:100%;
+	}
+	#ringsbanner{
+		width:100%;
+	}
+.socialbutton{
+		width:3em;
+	}
+
+}
+
 
 
 
