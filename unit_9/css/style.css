@@ -291,195 +291,231 @@ a{
 	padding-top:1em;
 }
 
+figure {
+  width: 100%;
+  position:relative;
+  margin:auto;
+}
 
-@media only screen and (max-width:480px)
-{
-	h1, header, {
-		font-size: .75em; 
-	}
-	#headline{
-		font-size:0.95em;
+.text-hover{
+  display: none;  
+  height:100%;
+  width:100%;
+  background-color:rgba(0,0,0,0.5);
+  position:absolute;
+  top:0;
+  left:0;
+  font-family:sans-serif;
+  text-align:center;
+  color:white;
+  font-size:40px;
+  padding:30% 0 0;
+  margin:0;
+}
+
+figure:hover > .text-hover{
+  display:block;
+}
+
+.img-hover{
+  display: inline-block;
+  width:33%;
+}
+
+
+
+
+
+
+@media (max-width:1100px)
+	{ 
+		footer{
+			font-size:0.75em;
+			display:block;
+			position:static;
+			bottom:0;
+			width:100%;
+			background-color:purple;
+		}
+
+		#blingring{
+			width:100%;
+		}
+		#ringsbanner{
+			width:100%;
+		}
+		.socialbutton{
+			width:3em;
+		}
 
 	}
-#shoppingtrolley{
-		width:1.5em;
+
+@media (max-width:980px)
+	{ 
+		.productcontainer{
+			display:block;
+			float:none;
+			width:100%;
+		}
+
+		.productpicture{
+			display:block;
+			width:100%;
+		}
+
+		.producttext{
+			display:block;
+			width:90%;
+			padding:none;
+		}
+
+		.reviews{
+			width:90%;
+			padding:0.5em;
+			text-align:justify;
+			display:block;
+			letter-spacing:0;
+			font-size:0.7em;
+		}
+
 	}
-	#slogan {
+
+@media (max-device-width:480px)
+	{
+		h1, header {
+			font-size: .75em; 
+		}
+
+		#headline{
+			font-size:0.95em;
+
+		}
+
+		#shoppingtrolley{
+			width:1.5em;
+		}
+
+		#slogan {
 			font-size:.75em;
-	}
-	p{
-		font-size: 0.7em;
-		text-align: justify-all;
-	}
-	.menu{ 
-		font-size:1em;
+		}
+
+		p {
+			font-size: 0.7em;
+			text-align: justify-all;
+		}
+
+		.menu { 
+			font-size:1em;
+		}
+		#cloverbracelet{
+			width:80%;
+		}
+
+		.wrapper{ 
+			display:block;
+			width:100%;
 		 }
-	#cloverbracelet{
-		width:80%;
+
+		 .frontrow{
+		 	display:block;
+		 	width:100%;
+		 }
+
+		footer{
+			display:block;
+			position:static;
+			bottom:0;
+			width:100%;
+			background-color:purple;
+		}
+
+		nav a {
+			padding:0.3em;
+			letter-spacing:0.1em;
+
+		}
+
+		.socialbutton{
+			width:2em;
+		}
+
+		#blingring{
+			width:100%;
+		}
+		#ringsbanner{
+			width:100%;
+		}
+		.earrings{
+			display:block;
+			width:100%;
+		}
+
+		.necklace{
+			display:block;
+			width:100%;
+		}
+
+		.ring{
+			display:block;
+			width:100%;
+		}
+
+		.bracelets{
+			display:block;
+			width:100%;
+		}
+
+		.sets{
+			display:block;
+			width:100%;
+		}
+
+		.productcontainer{
+			display:block;
+			float:none;
+			width:100%;
+		}
+
+		.productpicture{
+			display:block;
+			width:100%;
+		}
+
+		.producttext{
+			display:block;
+			width:90%;
+			padding:none;
+			font-size:1em;
+		}
+
+		.reviews{
+			width:90%;
+			padding:0.5em;
+			text-align:justify;
+			display:block;
+			letter-spacing:0;
+			font-size:1em;
+			
+
+		}
+
+		#addtocartbutton{
+			padding-left:2.1em; 
+		}
+
+		#shippingearrings{
+			width:50%;
+		}
+
+		#purpleringFAQ{
+			width:50%;
+		}
+
+		#privacypolicyimage{
+			width:50%;
+		}
+
+		#aboutusnecklace{
+			width:50%;
+		}
 	}
-
-	.wrapper{ 
-		display:block;
-		width:100%;
-	 }
-
-	 .frontrow{
-	 	display:block;
-	 	width:100%;
-	 }
-
-	footer{
-		display:block;
-		position:static;
-		bottom:0;
-		width:100%;
-		background-color:purple;
-	}
-
-	nav a {
-		padding:0.3em;
-		letter-spacing:.1em;
-
-	}
-
-	.socialbutton{
-		width:2em;
-	}
-
-	#blingring{
-		width:100%;
-	}
-	#ringsbanner{
-		width:100%;
-	}
-	.earrings{
-		display:block;
-		width:100%;
-	}
-
-	.necklace{
-		display:block;
-		width:100%;
-	}
-
-	.ring{
-		display:block;
-		width:100%;
-	}
-
-	.bracelets{
-		display:block;
-		width:100%;
-	}
-
-	.sets{
-		display:block;
-		width:100%;
-	}
-
-	.productcontainer{
-		display:block;
-		float:none;
-		width:100%
-	}
-
-	.productpicture{
-		display:block;
-		width:100%;
-	}
-
-	.producttext{
-		display:block;
-		width:90%;
-		padding:none;
-		font-size:1em;
-	}
-
-	.reviews{
-		width:90%;
-		padding:0.5em;
-		text-align:justify;
-		display:block;
-		letter-spacing:0;
-		font-size:1em;
-
-	}
-
-	#addtocartbutton{
-		padding-left:2.1em; 
-	}
-
-	#shippingearrings{
-		width:50%;
-	}
-
-	#purpleringFAQ{
-		width:50%;
-	}
-
-	#privacypolicyimage{
-		width:50%;
-	}
-
-	#aboutusnecklace{
-		width:50%;
-	}
-}
-
-
-@media only screen and (max-width:980px)
-{ 
-	.productcontainer{
-		display:block;
-		float:none;
-		width:100%
-	}
-
-	.productpicture{
-		display:block;
-		width:100%;
-	}
-
-	.producttext{
-		display:block;
-		width:90%;
-		padding:none;
-	}
-
-	.reviews{
-		width:90%;
-		padding:0.5em;
-		text-align:justify;
-		display:block;
-		letter-spacing:0;
-		font-size:0.7em;
-	}
-
-}
-
-@media only screen and (max-width:1100px)
-{ 
-	footer{
-		font-size:0.75em;
-		display:block;
-		position:static;
-		bottom:0;
-		width:100%;
-		background-color:purple;
-	}
-
-#blingring{
-		width:100%;
-	}
-	#ringsbanner{
-		width:100%;
-	}
-.socialbutton{
-		width:3em;
-	}
-
-}
-
-
-
-
